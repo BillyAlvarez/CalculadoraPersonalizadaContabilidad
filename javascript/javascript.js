@@ -27,5 +27,5 @@ function limpiar() {
     document.getElementById("porcentaje").value = '';
     document.getElementById("resultado").innerHTML = '';
     document.getElementById("resultadoIVA").innerHTML = '';
-    
+
  }
