@@ -20,3 +20,10 @@ function calcularIva() {
 
 
 }
+
+function limpiar() {
+    document.getElementById("precio").value = '';
+    document.getElementById("resultado").innerHTML = '';
+    document.getElementById("resultadoIVA").innerHTML = '';
+    
+ }

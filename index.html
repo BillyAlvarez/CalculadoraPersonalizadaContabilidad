@@ -30,12 +30,14 @@
 
 
 
-      <button type="button" class="btn btn-primary btn-lg mt-5" onclick="calcularIva()">Calcular</button>
+      <button type="button" class="btn btn-primary btn-lg mt-5 me-5" onclick="calcularIva()">Calcular</button>
+      <button type="button" class="btn btn-success btn-lg mt-5" onclick="limpiar()">Limpiar</button>
     </form>
 
     <div class="container mt-4 mb-4">
-    <h2>El Monto Bruto (Neto+IVA) es: <span id="resultado"></span></h2>
-    <h2>El Monto IVA es: <span id="resultadoIVA"></span></h2>
+    <h2>El Monto Bruto (Neto+IVA) es: <span class="badge bg-secondary" id="resultado"></span></h2>
+    
+    <h2>El Monto IVA es: <span class="badge bg-secondary" id="resultadoIVA"></span></h2>
     </div>
 
     <script src="javascript/javascript.js">
